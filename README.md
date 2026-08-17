@@ -1,12 +1,10 @@
-# Laboratorio Flex & Bison — Ejemplos 1-5 y 1-6 (Calculadora simple)
+# Laboratorio Flex & Bison
+
+# Ejemplos 1-5 y 1-6 (Calculadora simple)
 
 **Fuente:** *Flex & Bison*, John Levine (O'Reilly). Ejemplo 1-5 (`fb1-5.y`, pág. 31) y Ejemplo 1-6 (`fb1-5.l`, pág. 33), capítulo 1.
 
-## 1. Objetivo
-
-Compilar y probar la calculadora del libro, combinando el escáner en flex (Ejemplo 1-6) con el parser en bison (Ejemplo 1-5), y documentar su comportamiento.
-
-## 2. Archivos
+## Archivos
 
 **`fb1-5.y`** (bison)
 ```c
@@ -78,9 +76,9 @@ void yyerror(const char *s) {
 %%
 ```
 
-> **Nota (errata del libro):** en el texto impreso, la acción de `calclist exp EOL` usa `$1` en vez de `$2`. Ya corregido arriba.
+> **Nota (errata del libro):** en el texto impreso, la acción de `calclist exp EOL` usa `$1` en vez de `$2`.
 
-## 3. Compilación
+## Compilación
 
 ```bash
 bison -d fb1-5.y      # genera fb1-5.tab.c y fb1-5.tab.h
@@ -89,15 +87,15 @@ cc -o fb1-5 fb1-5.tab.c lex.yy.c -lfl
 ./fb1-5
 ```
 
-## 4. Corrección: división por cero
+## Corrección: división por cero
 
 El libro no valida el divisor. `10 / 0` sin corregir produce `SIGFPE` (el sistema mata el proceso). Se agregó la validación mostrada arriba en la regla `factor DIV term`: ahora imprime `error: division por cero` y el programa sigue corriendo.
 
-## 5. Evidencia de ejecución
+## Evidencia de ejecución
 
-<!-- 📸 Pega aquí tu captura de pantalla de la terminal con las pruebas -->
+<img width="348" height="360" alt="Pruebas 1 5-1 6" src="https://github.com/user-attachments/assets/dd7e1f3e-fc5c-4a4c-bd13-cafecafe0f1e" />
 
-## 6. Pruebas y resultados
+## Pruebas y resultados
 
 | Prueba | Entrada | Resultado |
 |---|---|---|
@@ -109,7 +107,7 @@ El libro no valida el divisor. `10 / 0` sin corregir produce `SIGFPE` (el sistem
 | ABS con negativo | `|-5 + 3` | `error: syntax error` |
 | ABS válido | `|5 + 3` | `= 8` |
 
-## 7. Análisis y conclusiones
+## Análisis y conclusiones
 
 - **Precedencia:** la gramática en tres niveles (`exp → factor → term`) hace que `*`/`/` se resuelvan antes que `+`/`-`, sin declarar `%left`/`%right`.
 - **División entera:** `yylval` y los valores semánticos son `int`, así que la división trunca decimales (comportamiento normal de C, no un bug).
