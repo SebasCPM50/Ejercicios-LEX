@@ -69,9 +69,8 @@ NEWLINE
 
 Esta prueba permite comprobar el reconocimiento de los diferentes operadores definidos en el scanner.
 
-#### Evidencia de la prueba 2
+<img width="869" height="201" alt="image" src="https://github.com/user-attachments/assets/73828251-149a-4c19-b18f-ed96caa545f0" />
 
-<!-- Inserta aquí la captura de pantalla de la Prueba 2 del Ejemplo 1.3 -->
 
 ---
 
@@ -97,9 +96,8 @@ Los espacios son ignorados por el scanner.
 
 La letra `q` no corresponde a ninguna de las reglas principales, por lo que es reconocida por la regla general `.` y se muestra como un carácter desconocido.
 
-#### Evidencia de la prueba 3
+<img width="884" height="131" alt="image" src="https://github.com/user-attachments/assets/1c7b3157-1e89-4e23-bb22-e6f05e55d66d" />
 
-<!-- Inserta aquí la captura de pantalla de la Prueba 3 del Ejemplo 1.3 -->
 
 ---
 
@@ -142,9 +140,8 @@ El token `258` indica que se reconoció un número y `yylval` almacena su valor.
 
 El token `259` corresponde al operador de suma y `264` representa el final de línea.
 
-#### Evidencia de la prueba 1
+<img width="889" height="120" alt="image" src="https://github.com/user-attachments/assets/82d45b5b-5a42-432e-8f85-8aba1baa4229" />
 
-<!-- Inserta aquí la captura de pantalla de la Prueba 1 del Ejemplo 1.4 -->
 
 ---
 
@@ -174,9 +171,8 @@ El scanner continúa procesando el resto de la entrada y reconoce `/`, los núme
 
 Los espacios son ignorados.
 
-#### Evidencia de la prueba 2
+<img width="886" height="165" alt="image" src="https://github.com/user-attachments/assets/a8f06499-41f1-48fc-af07-c312dd23cdef" />
 
-<!-- Inserta aquí la captura de pantalla de la Prueba 2 del Ejemplo 1.4 -->
 
 ---
 
@@ -201,9 +197,8 @@ Los espacios son ignorados.
 
 Esta prueba comprueba el reconocimiento de los tokens `SUB` y `MUL`.
 
-#### Evidencia de la prueba 3
+<img width="881" height="151" alt="image" src="https://github.com/user-attachments/assets/bd49997c-17e2-4b91-ab0d-316416889cfc" />
 
-<!-- Inserta aquí la captura de pantalla de la Prueba 3 del Ejemplo 1.4 -->
 
 ---
 
