@@ -37,7 +37,8 @@ NEWLINE
 
 Esta prueba demuestra que el scanner puede reconocer números de varios dígitos y el operador de suma.
 
-#### Evidencia de la prueba 1
+<img width="862" height="125" alt="image" src="https://github.com/user-attachments/assets/78e67fdd-9840-4e80-a9bd-288e096aed0a" />
+
 
 <!-- Inserta aquí la captura de pantalla de la Prueba 1 del Ejemplo 1.3 -->
 
