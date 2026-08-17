@@ -115,3 +115,5 @@ El libro no valida el divisor. `10 / 0` sin corregir produce `SIGFPE` (el sistem
 - **Operador `|` (ABS):** no soporta números negativos con `-` porque la gramática no tiene regla de "menos unario"; sin el signo funciona bien.
 - **Caracteres desconocidos:** el escáner los reporta pero no detiene el programa; el error real ocurre después, en el parser, porque ese carácter nunca es un token válido.
 - flex y bison se complementan: flex hace el análisis léxico (texto → tokens) y bison el sintáctico/semántico (tokens → resultado).
+
+Presentado por: Alejandro Poveda Sandoval - Juan Pablo Bejarano Arévalo - Sebastián Chaux Palencia
