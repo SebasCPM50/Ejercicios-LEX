@@ -138,7 +138,7 @@ Hello
 1 1 6
 ```
 
-### Espacio para captura
+### Captura de prueba
 
 > **Captura de la Prueba 1**
 > <img width="1547" height="595" alt="image" src="https://github.com/user-attachments/assets/661dea5f-5459-4ea7-b53c-db6c82cf14a5" />
@@ -196,7 +196,7 @@ Estoy probando el ejemplo uno
 3 10 54
 ```
 
-### Espacio para captura
+### Captura de prueba
 
 > **Captura de la Prueba 2**
 > <img width="1555" height="290" alt="image" src="https://github.com/user-attachments/assets/fdecad5c-d4ae-4f68-b30a-a922df27892a" />
