@@ -130,11 +130,11 @@ colour
 color
 ```
 
-### Espacio para captura
+### Captura de prueba
 
 > **Captura de la Prueba 1**
->
-> 📷 *Insertar aquí la captura de pantalla de la terminal mostrando la entrada `colour` y el resultado `color`.*
+> <img width="1549" height="221" alt="image" src="https://github.com/user-attachments/assets/e7d2ba7b-6480-444f-aa39-a995c120373e" />
+
 
 ### Análisis
 
@@ -174,11 +174,11 @@ colour flavour clever smart conservative
 color flavor smart elegant liberal
 ```
 
-### Espacio para captura
+### Captura de prueba
 
 > **Captura de la Prueba 2**
->
-> 📷 *Insertar aquí la captura de pantalla de la terminal mostrando la entrada completa y el resultado transformado.*
+> <img width="1525" height="193" alt="image" src="https://github.com/user-attachments/assets/77a7a314-6541-4fba-8b5e-8d6515b19df3" />
+
 
 ### Análisis
 
@@ -218,11 +218,11 @@ I like the colour of this car.
 I like the color of this car.
 ```
 
-### Espacio para captura
+### Captura de prueba
 
 > **Captura de la Prueba 3**
->
-> 📷 *Insertar aquí la captura de pantalla de la terminal mostrando la frase original y la frase transformada.*
+> <img width="1529" height="222" alt="image" src="https://github.com/user-attachments/assets/a18f1258-3d09-4cc4-a4af-f2059d80f16e" />
+
 
 ### Análisis
 
@@ -264,11 +264,11 @@ Colour COLOUR colour
 Colour COLOUR color
 ```
 
-### Espacio para captura
+### Captura de prueba
 
 > **Captura de la Prueba 4**
->
-> 📷 *Insertar aquí la captura de pantalla de la terminal mostrando la entrada y el resultado.*
+> <img width="1525" height="226" alt="image" src="https://github.com/user-attachments/assets/1321f39f-e79e-4c9c-82c4-558f82278b22" />
+
 
 ### Análisis
 
